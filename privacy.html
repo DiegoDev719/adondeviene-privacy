@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Política de Privacidad de A donde viene, aplicación móvil de movilidad para Santiago de Chile." />
+  <title>Política de Privacidad — A donde viene</title>
+  <style>
+    :root {
+      --bg: #0B0F17;
+      --bg-elevated: #111827;
+      --surface: #1B2433;
+      --border: #2A3649;
+      --text: #E7ECF3;
+      --text-secondary: #9CAABF;
+      --text-tertiary: #6B7A90;
+      --accent: #16A34A;
+      --accent-soft: rgba(22, 163, 74, 0.12);
+      --radius: 14px;
+      --max-width: 760px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F5F7FA;
+        --bg-elevated: #FFFFFF;
+        --surface: #FFFFFF;
+        --border: #E2E8F0;
+        --text: #111827;
+        --text-secondary: #4B5563;
+        --text-tertiary: #6B7280;
+        --accent: #15803D;
+        --accent-soft: rgba(22, 163, 74, 0.10);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .page {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #16A34A, #0EA5E9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: #FFFFFF;
+      flex-shrink: 0;
+    }
+
+    .brand-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      letter-spacing: 0.3px;
+    }
+
+    h1 {
+      font-size: clamp(26px, 5vw, 34px);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+
+    .updated {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border: 1px solid var(--accent);
+      border-radius: 999px;
+      padding: 5px 14px;
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      font-size: 15px;
+      color: var(--text-secondary);
+      max-width: 60ch;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .section {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+    }
+
+    .section h2 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .section .num {
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .section p {
+      font-size: 14.5px;
+      color: var(--text-secondary);
+    }
+
+    .section ul {
+      margin: 8px 0 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .section li {
+      font-size: 14.5px;
+      color: var(--text-secondary);
+    }
+
+    .contact a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease;
+    }
+
+    .contact a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    .independence {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+    }
+
+    .independence strong {
+      color: var(--text-secondary);
+      font-weight: 700;
+    }
+
+    .footer-meta {
+      margin-top: 20px;
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+
+    @media (max-width: 480px) {
+      .page {
+        padding: 24px 16px 48px;
+      }
+      .section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">A</div>
+        <span class="brand-name">A donde viene</span>
+      </div>
+      <h1>Política de Privacidad</h1>
+      <span class="updated">Última actualización: noviembre de 2026</span>
+      <p class="intro">
+        Esta política describe cómo <strong>A donde viene</strong> maneja tu información
+        para ofrecerte un servicio de movilidad útil y respetuoso con tu privacidad.
+      </p>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2><span class="num">1.</span> Ubicación GPS</h2>
+        <p>
+          La aplicación usa tu ubicación en primer plano, mientras está abierta, para
+          mostrar los paraderos cercanos, calcular rutas y emitir alertas de bajada. De
+          forma opcional, puedes otorgar el permiso de ubicación en segundo plano para que
+          la alarma de bajada siga funcionando con la pantalla bloqueada; si no lo otorgas,
+          la app funciona igual con la pantalla encendida. Puedes revocar este permiso en
+          cualquier momento desde los ajustes del sistema. La ubicación no se almacena en
+          servidores propios.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2><span class="num">2.</span> Almacenamiento local</h2>
+        <p>
+          Los paraderos favoritos, las preferencias de tema y las búsquedas recientes se
+          guardan solamente en tu dispositivo mediante AsyncStorage. Puedes eliminarlos
+          borrando los datos de la aplicación.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2><span class="num">3.</span> Consultas de direcciones</h2>
+        <p>
+          Las búsquedas de direcciones y lugares se envían a OpenStreetMap (Nominatim) sin
+          identificadores personales, como nombre, correo o cuenta de usuario.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2><span class="num">4.</span> Sin venta ni cesión de datos</h2>
+        <p>
+          No vendemos, alquilamos ni cedemos datos personales a terceros. La información se
+          usa exclusivamente para prestar el servicio de movilidad.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2><span class="num">5.</span> Aportes voluntarios</h2>
+        <p>
+          Las propinas de apoyo al proyecto se procesan de forma segura a través de Google
+          Play Billing. La aplicación no tiene acceso, no recopila ni almacena información
+          de tarjetas de crédito o cuentas bancarias.
+        </p>
+      </section>
+
+      <section class="section contact">
+        <!--
+          ATENCIÓN DESARROLLADOR:
+          Sustituye "contacto@adondevine.cl" por el correo real de soporte vinculado a tu
+          cuenta de Google Play. Debe ser una dirección que revises, ya que Google Play
+          Console exige una vía de contacto válida para atender solicitudes de privacidad
+          y de eliminación de datos. Actualiza también el enlace mailto de esta sección.
+        -->
+        <h2><span class="num">6.</span> Contacto y eliminación de datos</h2>
+        <p>
+          A donde viene no crea cuentas de usuario ni guarda datos personales en servidores
+          externos: la información de la aplicación permanece en tu dispositivo y puedes
+          eliminarla en cualquier momento borrando los datos de la app o desinstalándola.
+        </p>
+        <p>
+          Si tienes dudas sobre esta política o deseas solicitar la eliminación de tus
+          datos, escríbenos a
+          <a href="mailto:contacto@adondevine.cl">contacto@adondevine.cl</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p class="independence">
+        <strong>Aviso de Independencia:</strong> A donde viene es una aplicación
+        independiente, desarrollada para facilitar la movilidad en Santiago de Chile. No
+        representa, no está afiliada ni cuenta con el respaldo oficial de Red Movilidad,
+        DTPM, Metro de Santiago ni del Ministerio de Transportes y Telecomunicaciones. Las
+        marcas, nombres y logotipos de terceros pertenecen a sus respectivos titulares y se
+        utilizan únicamente con fines descriptivos e informativos.
+      </p>
+      <p class="footer-meta">A donde viene · Santiago, Chile</p>
+    </footer>
+  </div>
+</body>
+</html>
